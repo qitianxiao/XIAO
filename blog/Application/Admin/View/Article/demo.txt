@@ -1,0 +1,198 @@
+2017-08-22 20:01:27
+
+ 对方向您发送了一个振屏。
+
+<!DOCTYPE html>
+<html>
+
+
+	<head>
+		
+		<meta charset="utf-8">
+		<title>新增博文</title>
+		<base href="__PUBLIC__/Admin/">
+		<meta name="renderer" content="webkit">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="format-detection" content="telephone=no">
+
+
+		<link rel="stylesheet" href="plugin/layui/css/layui.css" media="all" />
+		<link rel="stylesheet" type="text/css" href="http://www.jq22.com/jquery/font-awesome.4.6.0.css">
+	</head>
+
+
+	<body>
+		<div style="margin: 15px;"> 
+			<fieldset class="layui-elem-field layui-field-title" style="margin-top: 20px;">
+				<legend>新增博文</legend>
+			</fieldset>
+
+
+			<form class="layui-form" action="{:U('Article/add')}" method="post">
+				<div class="layui-form-item">
+					<label class="layui-form-label">博文标题</label>
+					<div class="layui-input-block">
+						<input type="text" name="title" lay-verify="title" autocomplete="off" placeholder="请输入标题" class="layui-input">
+					</div>
+				</div>
+				<div class="layui-form-item">
+					<label class="layui-form-label">作者</label>
+					<div class="layui-input-block">
+						<input type="text" name="author" lay-verify="required" placeholder="请输入作者" autocomplete="off" class="layui-input">
+					</div>
+				</div>
+				
+
+
+				<div class="layui-form-item">
+					<label class="layui-form-label">分类</label>
+					<div class="layui-input-block">
+						<select name="category_id" lay-filter="aihao" lay-verify="category">
+						    <option value="0">请选择</option>
+							<foreach name='categoryList' item='vo'>
+								<option value="{$vo.category_id}">{$vo.category_name}</option>
+							</foreach>
+						</select>
+					</div>
+				</div>
+
+
+				
+				<div class="layui-form-item">
+					<label class="layui-form-label">标签</label>
+					<div class="layui-input-block">
+					<foreach name='labelList' item='vo'>
+						<input type="checkbox" name="labelName[]" value="{$vo.label_id}" title="{$vo.label_name}">
+					</foreach>	
+					</div>
+				</div>
+
+
+				<div class="layui-form-item">
+					<label class="layui-form-label">保存为草稿</label>
+					<div class="layui-input-block">
+						<input type="checkbox" name="is_draft" value="1" title="草稿">
+					</div>
+				</div>
+
+
+				<div class="layui-form-item">
+					<label class="layui-form-label">不在前台展示</label>
+					<div class="layui-input-block">
+						<input type="checkbox" name="is_show" value="0" title="不展示">
+					</div>
+				</div>
+				
+
+
+				<div class="layui-form-item layui-form-text">
+					<label class="layui-form-label">编辑器</label>
+					<div class="layui-input-block">
+						<textarea class="layui-textarea layui-hide" name="content" lay-verify="content" id="LAY_demo_editor"></textarea>
+					</div>
+				</div>
+
+
+				<div class="layui-form-item">
+					<div class="layui-input-block">
+						<button class="layui-btn" lay-submit="">立即提交</button>
+						<button type="reset" class="layui-btn layui-btn-primary">重置</button>
+					</div>
+				</div>
+			</form>
+		</div>
+		<script type="text/javascript" src="plugin/layui/layui.js"></script>
+		<script>
+			layui.use(['form', 'layedit', 'laydate'], function() {
+				var form = layui.form(),
+					layer = layui.layer,
+					layedit = layui.layedit,
+					laydate = layui.laydate;
+
+
+				//创建一个编辑器
+				var editIndex = layedit.build('LAY_demo_editor');
+				//自定义验证规则
+				form.verify({
+					title: function(value) {
+						if(value.length < 1) {
+							return '标题至少得1个字符啊';
+						}
+					},
+					category: function(value) {
+						if(value == 0) {
+							return '必须选择分类';
+						}
+					},
+				
+				});
+
+
+			});
+		</script>
+	</body>
+
+
+</html>
+
+
+
+、public function add(){
+		if (IS_POST) {
+			$articleTitle = I('post.title');
+			$arData = I('post.');
+			$articleList = M('Article')->field('title')->select();
+			//判断库里存在否
+			$bool = true;
+			foreach ($articleList as $key => $value) {
+				if ($value['title'] == $articleTitle) 
+					$bool = false;
+			}
+			//不存在入库
+			if ($bool) {
+				//创建时间
+				$arData['create_time'] = time();
+				$arData['admin_id'] = session('adminInfo')['admin_id'];
+				//入库文章表
+				$result = M('Article')->add($arData);
+				
+				if ($result) {
+					//入库标签表
+					$labelArticle = array();
+					$label = I('post.labelName');
+					foreach ($label as $key => $value) {
+						$labelArticle[] = array(
+							'label_id' => $value,
+							'article_id' => $result,
+						 );
+					}	
+					$labelresult = M('LabelArticle')->addAll($labelArticle);
+					//文章和标签表都入库成功了，跳转
+					if ($labelresult) {
+						//记录日志
+						$adminInfo = session('adminInfo');
+						$logInfo = "添加文章《".I('post.title')."》";
+						$logData = ['log_time'=>time(),'admin_id'=>$adminInfo['admin_id'],'log_info'=>$logInfo,'ip_address'=>get_client_ip()];
+						M('AdminLog')->add($logData);
+						
+						$this->success('添加博文成功',U('Article/index'));
+					}else{
+						$this->error('添加失败');
+					}
+				}else{
+					$this->error('添加失败');
+				}
+			}else{
+				$this->error('博文标题已存在');
+			}
+		}else{
+			$categoryList = M('Category')->select();
+			$this->assign('categoryList',$categoryList);
+			$labelList = M('Label')->select();
+			$this->assign('labelList',$labelList);
+			$this->display();
+		}
+	}

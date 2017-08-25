@@ -1,0 +1,83 @@
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
+<html>
+	<head>
+	    <base href="/Public/">
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+		<link rel="shortcut icon" type="image/png" href="static/i/favicon.png">
+		<link rel="stylesheet" href="static/css/admin.css">
+		<link rel="stylesheet" href="static/layui/css/layui.css">
+		<link rel="stylesheet" href="static/editor.md/css/editormd.min.css" />
+		<script src="static/layui/layui.js"></script>
+	</head>
+	<body>
+		<div class="header">
+			<h2 class="z cl"><a href="index.html"></a></h2>
+			<div class="y cl">
+			</div>
+		</div>
+		<div class="admin">
+			<div class="aleft" id="left-container"></div>
+			<div class="aright">
+				<fieldset class="layui-elem-field layui-field-title" style="margin: 20px 30px 20px 20px;">
+					<legend>添加博文</legend>
+				</fieldset>
+
+				<form class="layui-form bform" method="post" action="<?php echo U('Article/save');?>">
+
+					<div class="layui-form-item">
+						<label class="layui-form-label">博文标题</label>
+						<div class="layui-input-block">
+							<input type="text" value="<?php echo ($data['article_title']); ?>" name="article_title" required lay-verify="required" placeholder="必填内容" autocomplete="off" class="layui-input">
+						</div>
+					</div>
+
+					<div class="layui-form-item" style="width: 300px;">
+						<label class="layui-form-label">博文分类</label>
+						<div class="layui-input-block" id="category">
+						    <select name="category_id" id="">
+						          <?php if(is_array($cate)): foreach($cate as $key=>$v): ?><option value="<?php echo ($v['category_id']); ?>"><?php echo ($v['category_name']); ?></option><?php endforeach; endif; ?>
+						    </select>
+						</div>
+					</div>
+
+					<div class="layui-form-item">
+						<label class="layui-form-label">文章作者</label>
+						<div class="layui-input-block">
+							<input type="text" value="<?php echo ($data['article_author']); ?>" name="article_author" required lay-verify="required"  placeholder="请输入内容" autocomplete="off" class="layui-input">
+						</div>
+					</div>
+
+					<div class="layui-form-item layui-form-text">
+						<label class="layui-form-label">文章内容</label>
+						<div class="layui-input-block">
+							<textarea name="article_content"><?php echo ($data['article_content']); ?></textarea>
+						</div>
+					</div>
+					 <hr>
+					<div class="layui-form-item">
+						<div class="layui-input-block">
+						    <input type="hidden" name="id" value="<?php echo ($data['article_id']); ?>">
+							<input type="submit" value="修改博文" class="layui-btn" >
+							<button class="layui-btn layui-btn-primary" onclick="history.go(-1)">返回</button>
+						</div>
+					</div>
+
+				</form>
+				<script src="static/js/jquery.min.js"></script>
+				<script src="static/editor.md/editormd.min.js"></script> 
+				<script>
+					layui.config({base:'static/js/'}).use('blog-add');
+				</script>
+				<script id ="template" type="text/template">
+					<select name="blog.categoryID">
+						{{#  layui.each(d.data, function(index, item){ }}
+							<option value="{{item.id}}">{{item.name}}</option>
+						{{# });}}
+					</select>
+				</script>
+			</div>
+		</div>
+	</body>
+
+</html>

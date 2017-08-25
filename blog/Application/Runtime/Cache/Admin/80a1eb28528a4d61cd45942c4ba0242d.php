@@ -1,0 +1,67 @@
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
+<html>
+  <head>
+  <base href="/Public/">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="shortcut icon" type="image/png" href="static/i/favicon.png">
+    <link rel="stylesheet" href="static/css/admin.css">
+    <link rel="stylesheet" href="static/layui/css/layui.css">
+    <script src="static/layui/layui.js"></script>
+  </head>
+  <body>
+    <div class="admin">
+      <div class="aleft" id="left-container"></div>
+      <div class="aright">
+
+        <fieldset class="layui-elem-field layui-field-title" style="margin: 20px 30px 20px 20px;">
+          <legend>管理员添加</legend>
+        </fieldset>
+
+        <form class="layui-form bform" method="post" action="<?php echo U('Admin/insert');?>" enctype="multipart/form-data">
+
+          <div class="layui-form-item">
+            <label class="layui-form-label">管理员名称</label>
+            <div class="layui-input-block">
+              <input type="text" name="admin_name" required lay-verify="required" placeholder="必填内容" autocomplete="off" class="layui-input admin_name"><p class="p"></p>
+            </div>
+          </div>
+
+          <div class="layui-form-item">
+            <label class="layui-form-label">管理员密码</label>
+            <div class="layui-input-block">
+              <input type="text" name="admin_pwd" required lay-verify="url" placeholder="必填内容" autocomplete="off" class="layui-input">
+            </div>
+          </div>
+
+          <div class="layui-form-item">
+            <div class="layui-input-block">
+              <input type="submit" class="layui-btn" value="提交">
+              <button class="layui-btn layui-btn-primary" onclick="history.go(-1)">返回</button>
+            </div>
+          </div>
+
+        </form>
+        <script>
+          layui.config({
+            base:'static/js/'
+          }).use('youlian-add');
+
+          remote: {
+              url: "/Admin/Admin/insert", //后台处理程序
+              type: "post",               //数据发送方式
+              dataType: "json",           //接受数据格式   
+              data: {                     //要传递的数据
+                  username: function() {
+                      return $("#username").val();
+                  }
+              }
+          }
+
+    
+        </script>
+      </div>
+    </div>
+  </body>
+
+</html>

@@ -1,0 +1,2058 @@
+[ 2017-08-25T08:49:12+08:00 ] 127.0.0.1 /index.php/Admin/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.016000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.016000s ]
+
+[ 2017-08-25T08:49:19+08:00 ] 127.0.0.1 /index.php/Admin/Login/checklogin?admin_name=xiao&admin_pwd=123456
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `blog_admin` [ RunTime:0.1100s ]
+SQL: SELECT * FROM `blog_admin` WHERE `admin_name` = 'xiao' LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `blog_admin` SET `admin_creat_time`='1503622159',`admin_ip`='127.0.0.1' WHERE ( admin_id=1 ) [ RunTime:0.0500s ]
+
+[ 2017-08-25T08:49:19+08:00 ] 127.0.0.1 /index.php/Admin/Admin/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\AdminController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\server\WWW\htdocs\one\blog\Application\Admin\Controller\AdminController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `blog_config` [ RunTime:0.0430s ]
+SQL: SELECT * FROM `blog_config`  [ RunTime:0.0010s ]
+NOTIC: [8] Array to string conversion E:\server\WWW\htdocs\one\blog\Application\Admin\Controller\CommonController.class.php 第 14 行.
+
+[ 2017-08-25T08:53:39+08:00 ] 127.0.0.1 /index.php/Admin/Admin/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\AdminController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\server\WWW\htdocs\one\blog\Application\Admin\Controller\AdminController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `blog_config` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `blog_config`  [ RunTime:0.0000s ]
+NOTIC: [8] Array to string conversion E:\server\WWW\htdocs\one\blog\Application\Admin\Controller\CommonController.class.php 第 14 行.
+
+[ 2017-08-25T08:53:53+08:00 ] 127.0.0.1 /index.php/Admin/Admin/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\AdminController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\server\WWW\htdocs\one\blog\Application\Admin\Controller\AdminController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `blog_config` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `blog_config`  [ RunTime:0.0010s ]
+NOTIC: [8] Array to string conversion E:\server\WWW\htdocs\one\blog\Application\Admin\Controller\CommonController.class.php 第 14 行.
+NOTIC: [8] Array to string conversion E:\server\WWW\htdocs\one\blog\Application\Admin\Controller\CommonController.class.php 第 15 行.
+
+[ 2017-08-25T08:54:29+08:00 ] 127.0.0.1 /index.php/Admin/Admin/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Admin\Controller\AdminController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\server\WWW\htdocs\one\blog\Application\Admin\Controller\AdminController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `blog_config` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `blog_config`  [ RunTime:0.0000s ]
+NOTIC: [8] Array to string conversion E:\server\WWW\htdocs\one\blog\Application\Admin\Controller\CommonController.class.php 第 14 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-25T08:54:36+08:00 ] 127.0.0.1 /index.php/Admin/Article/show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Admin\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\server\WWW\htdocs\one\blog\Application\Admin\Controller\ArticleController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `blog_config` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `blog_config`  [ RunTime:0.0000s ]
+NOTIC: [8] Array to string conversion E:\server\WWW\htdocs\one\blog\Application\Admin\Controller\CommonController.class.php 第 14 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-25T08:54:36+08:00 ] 127.0.0.1 /Admin/Article/show?currentIndex=1&pageSize=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Admin\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\server\WWW\htdocs\one\blog\Application\Admin\Controller\ArticleController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `blog_config` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `blog_config`  [ RunTime:0.0000s ]
+NOTIC: [8] Array to string conversion E:\server\WWW\htdocs\one\blog\Application\Admin\Controller\CommonController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `blog_article` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `blog_article` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `blog_article` INNER JOIN blog_category on blog_article.category_id=blog_category.category_id  LIMIT 0,10   [ RunTime:0.0160s ]
+
+[ 2017-08-25T08:54:49+08:00 ] 127.0.0.1 /index.php/Admin/Config/show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\ConfigController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\server\WWW\htdocs\one\blog\Application\Admin\Controller\ConfigController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `blog_config` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `blog_config`  [ RunTime:0.0000s ]
+NOTIC: [8] Array to string conversion E:\server\WWW\htdocs\one\blog\Application\Admin\Controller\CommonController.class.php 第 14 行.
+SQL: SELECT * FROM `blog_config`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-25T08:54:54+08:00 ] 127.0.0.1 /index.php/Admin/Config/show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\ConfigController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\server\WWW\htdocs\one\blog\Application\Admin\Controller\ConfigController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `blog_config` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `blog_config`  [ RunTime:0.0010s ]
+NOTIC: [8] Array to string conversion E:\server\WWW\htdocs\one\blog\Application\Admin\Controller\CommonController.class.php 第 14 行.
+SQL: UPDATE `blog_config` SET `web_site`='WEB_SITE',`web_value`='www.xiao.com' WHERE `web_site` = 'WEB_SITE' [ RunTime:0.1150s ]
+SQL: UPDATE `blog_config` SET `web_site`='WEB_TITLE',`web_value`='xiao' WHERE `web_site` = 'WEB_TITLE' [ RunTime:0.0380s ]
+SQL: UPDATE `blog_config` SET `web_site`='IS_OFF',`web_value`='0' WHERE `web_site` = 'IS_OFF' [ RunTime:0.0290s ]
+SQL: UPDATE `blog_config` SET `web_site`='PAGE_SIZE',`web_value`='2' WHERE `web_site` = 'PAGE_SIZE' [ RunTime:0.0370s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-08-25T08:54:56+08:00 ] 127.0.0.1 /index.php/Admin/Config/show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\ConfigController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\server\WWW\htdocs\one\blog\Application\Admin\Controller\ConfigController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `blog_config` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `blog_config`  [ RunTime:0.0000s ]
+NOTIC: [8] Array to string conversion E:\server\WWW\htdocs\one\blog\Application\Admin\Controller\CommonController.class.php 第 14 行.
+SQL: SELECT * FROM `blog_config`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-25T08:55:03+08:00 ] 127.0.0.1 /index.php/Admin/Admin/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\AdminController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\server\WWW\htdocs\one\blog\Application\Admin\Controller\AdminController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `blog_config` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `blog_config`  [ RunTime:0.0000s ]
+NOTIC: [8] Array to string conversion E:\server\WWW\htdocs\one\blog\Application\Admin\Controller\CommonController.class.php 第 14 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-08-25T08:55:06+08:00 ] 127.0.0.1 /index.php/Admin/Article/show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Admin\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\server\WWW\htdocs\one\blog\Application\Admin\Controller\ArticleController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `blog_config` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `blog_config`  [ RunTime:0.0000s ]
+NOTIC: [8] Array to string conversion E:\server\WWW\htdocs\one\blog\Application\Admin\Controller\CommonController.class.php 第 14 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-25T08:55:06+08:00 ] 127.0.0.1 /Admin/Article/show?currentIndex=1&pageSize=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\server\WWW\htdocs\one\blog\Application\Admin\Controller\ArticleController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `blog_config` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `blog_config`  [ RunTime:0.0010s ]
+NOTIC: [8] Array to string conversion E:\server\WWW\htdocs\one\blog\Application\Admin\Controller\CommonController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `blog_article` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `blog_article` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `blog_article` INNER JOIN blog_category on blog_article.category_id=blog_category.category_id  LIMIT 0,10   [ RunTime:0.0010s ]
+
+[ 2017-08-25T08:56:06+08:00 ] 127.0.0.1 /index.php/Admin/Admin/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Admin\Controller\AdminController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\server\WWW\htdocs\one\blog\Application\Admin\Controller\AdminController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `blog_config` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `blog_config`  [ RunTime:0.0000s ]
+NOTIC: [8] Array to string conversion E:\server\WWW\htdocs\one\blog\Application\Admin\Controller\CommonController.class.php 第 14 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-25T08:56:08+08:00 ] 127.0.0.1 /index.php/Admin/Article/show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Admin\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\server\WWW\htdocs\one\blog\Application\Admin\Controller\ArticleController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `blog_config` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `blog_config`  [ RunTime:0.0010s ]
+NOTIC: [8] Array to string conversion E:\server\WWW\htdocs\one\blog\Application\Admin\Controller\CommonController.class.php 第 14 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-25T08:56:08+08:00 ] 127.0.0.1 /Admin/Article/show?currentIndex=1&pageSize=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\server\WWW\htdocs\one\blog\Application\Admin\Controller\ArticleController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `blog_config` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `blog_config`  [ RunTime:0.0000s ]
+NOTIC: [8] Array to string conversion E:\server\WWW\htdocs\one\blog\Application\Admin\Controller\CommonController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `blog_article` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `blog_article` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `blog_article` INNER JOIN blog_category on blog_article.category_id=blog_category.category_id  LIMIT 0,10   [ RunTime:0.0000s ]
+
+[ 2017-08-25T08:56:15+08:00 ] 127.0.0.1 /index.php/Admin/Admin/show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\AdminController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\server\WWW\htdocs\one\blog\Application\Admin\Controller\AdminController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `blog_config` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `blog_config`  [ RunTime:0.0000s ]
+NOTIC: [8] Array to string conversion E:\server\WWW\htdocs\one\blog\Application\Admin\Controller\CommonController.class.php 第 14 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-08-25T08:56:16+08:00 ] 127.0.0.1 /Admin/Admin/show?currentIndex=1&pageSize=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\AdminController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\server\WWW\htdocs\one\blog\Application\Admin\Controller\AdminController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `blog_config` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `blog_config`  [ RunTime:0.0000s ]
+NOTIC: [8] Array to string conversion E:\server\WWW\htdocs\one\blog\Application\Admin\Controller\CommonController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `blog_admin` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `blog_admin` LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: config E:\server\WWW\htdocs\one\blog\Application\Admin\Controller\AdminController.class.php 第 75 行.
+
+[ 2017-08-25T08:56:24+08:00 ] 127.0.0.1 /index.php/Admin/Admin/show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\AdminController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\server\WWW\htdocs\one\blog\Application\Admin\Controller\AdminController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `blog_config` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `blog_config`  [ RunTime:0.0000s ]
+NOTIC: [8] Array to string conversion E:\server\WWW\htdocs\one\blog\Application\Admin\Controller\CommonController.class.php 第 14 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-25T08:56:25+08:00 ] 127.0.0.1 /Admin/Admin/show?currentIndex=1&pageSize=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\AdminController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\server\WWW\htdocs\one\blog\Application\Admin\Controller\AdminController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `blog_config` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `blog_config`  [ RunTime:0.0010s ]
+NOTIC: [8] Array to string conversion E:\server\WWW\htdocs\one\blog\Application\Admin\Controller\CommonController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `blog_admin` [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `blog_admin` LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: config E:\server\WWW\htdocs\one\blog\Application\Admin\Controller\AdminController.class.php 第 75 行.
+
+[ 2017-08-25T08:58:11+08:00 ] 127.0.0.1 /index.php/Admin/Admin/show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\AdminController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\server\WWW\htdocs\one\blog\Application\Admin\Controller\AdminController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `blog_config` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `blog_config`  [ RunTime:0.0010s ]
+NOTIC: [8] Array to string conversion E:\server\WWW\htdocs\one\blog\Application\Admin\Controller\CommonController.class.php 第 14 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-25T08:58:11+08:00 ] 127.0.0.1 /Admin/Admin/show?currentIndex=1&pageSize=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\AdminController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\server\WWW\htdocs\one\blog\Application\Admin\Controller\AdminController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `blog_config` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `blog_config`  [ RunTime:0.0000s ]
+NOTIC: [8] Array to string conversion E:\server\WWW\htdocs\one\blog\Application\Admin\Controller\CommonController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `blog_admin` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `blog_admin` LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: config E:\server\WWW\htdocs\one\blog\Application\Admin\Controller\AdminController.class.php 第 75 行.
+
+[ 2017-08-25T08:58:20+08:00 ] 127.0.0.1 /index.php/Admin/Article/show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\server\WWW\htdocs\one\blog\Application\Admin\Controller\ArticleController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `blog_config` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `blog_config`  [ RunTime:0.0000s ]
+NOTIC: [8] Array to string conversion E:\server\WWW\htdocs\one\blog\Application\Admin\Controller\CommonController.class.php 第 14 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-25T08:58:20+08:00 ] 127.0.0.1 /Admin/Article/show?currentIndex=1&pageSize=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\server\WWW\htdocs\one\blog\Application\Admin\Controller\ArticleController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `blog_config` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `blog_config`  [ RunTime:0.0000s ]
+NOTIC: [8] Array to string conversion E:\server\WWW\htdocs\one\blog\Application\Admin\Controller\CommonController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `blog_article` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `blog_article` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `blog_article` INNER JOIN blog_category on blog_article.category_id=blog_category.category_id  LIMIT 0,10   [ RunTime:0.0010s ]
+
+[ 2017-08-25T09:00:01+08:00 ] 127.0.0.1 /index.php/Admin/Admin/show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\AdminController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\server\WWW\htdocs\one\blog\Application\Admin\Controller\AdminController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `blog_config` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `blog_config`  [ RunTime:0.0000s ]
+NOTIC: [8] Array to string conversion E:\server\WWW\htdocs\one\blog\Application\Admin\Controller\CommonController.class.php 第 14 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-25T09:00:01+08:00 ] 127.0.0.1 /Admin/Admin/show?currentIndex=1&pageSize=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Admin\Controller\AdminController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\server\WWW\htdocs\one\blog\Application\Admin\Controller\AdminController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `blog_config` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `blog_config`  [ RunTime:0.0010s ]
+NOTIC: [8] Array to string conversion E:\server\WWW\htdocs\one\blog\Application\Admin\Controller\CommonController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `blog_admin` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `blog_admin` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `blog_admin` LIMIT 0,10   [ RunTime:0.0000s ]
+
+[ 2017-08-25T09:00:34+08:00 ] 127.0.0.1 /index.php/Admin/Admin/show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\AdminController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\server\WWW\htdocs\one\blog\Application\Admin\Controller\AdminController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `blog_config` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `blog_config`  [ RunTime:0.0000s ]
+NOTIC: [8] Array to string conversion E:\server\WWW\htdocs\one\blog\Application\Admin\Controller\CommonController.class.php 第 14 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-25T09:00:34+08:00 ] 127.0.0.1 /Admin/Admin/show?currentIndex=1&pageSize=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Admin\Controller\AdminController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\server\WWW\htdocs\one\blog\Application\Admin\Controller\AdminController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `blog_config` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `blog_config`  [ RunTime:0.0010s ]
+NOTIC: [8] Array to string conversion E:\server\WWW\htdocs\one\blog\Application\Admin\Controller\CommonController.class.php 第 14 行.
+NOTIC: [8] Undefined variable: config E:\server\WWW\htdocs\one\blog\Application\Admin\Controller\AdminController.class.php 第 11 行.
+
+[ 2017-08-25T09:00:39+08:00 ] 127.0.0.1 /index.php/Admin/Admin/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\AdminController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\server\WWW\htdocs\one\blog\Application\Admin\Controller\AdminController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `blog_config` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `blog_config`  [ RunTime:0.0000s ]
+NOTIC: [8] Array to string conversion E:\server\WWW\htdocs\one\blog\Application\Admin\Controller\CommonController.class.php 第 14 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-25T09:00:43+08:00 ] 127.0.0.1 /index.php/Admin/Admin/show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\AdminController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\server\WWW\htdocs\one\blog\Application\Admin\Controller\AdminController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `blog_config` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `blog_config`  [ RunTime:0.0000s ]
+NOTIC: [8] Array to string conversion E:\server\WWW\htdocs\one\blog\Application\Admin\Controller\CommonController.class.php 第 14 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-25T09:00:43+08:00 ] 127.0.0.1 /Admin/Admin/show?currentIndex=1&pageSize=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\AdminController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\server\WWW\htdocs\one\blog\Application\Admin\Controller\AdminController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `blog_config` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `blog_config`  [ RunTime:0.0000s ]
+NOTIC: [8] Array to string conversion E:\server\WWW\htdocs\one\blog\Application\Admin\Controller\CommonController.class.php 第 14 行.
+NOTIC: [8] Undefined variable: config E:\server\WWW\htdocs\one\blog\Application\Admin\Controller\AdminController.class.php 第 11 行.
+
+[ 2017-08-25T09:00:59+08:00 ] 127.0.0.1 /index.php/Admin/Admin/show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\AdminController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\server\WWW\htdocs\one\blog\Application\Admin\Controller\AdminController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `blog_config` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `blog_config`  [ RunTime:0.0010s ]
+NOTIC: [8] Array to string conversion E:\server\WWW\htdocs\one\blog\Application\Admin\Controller\CommonController.class.php 第 14 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-25T09:00:59+08:00 ] 127.0.0.1 /Admin/Admin/show?currentIndex=1&pageSize=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Admin\Controller\AdminController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\server\WWW\htdocs\one\blog\Application\Admin\Controller\AdminController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `blog_config` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `blog_config`  [ RunTime:0.0010s ]
+NOTIC: [8] Array to string conversion E:\server\WWW\htdocs\one\blog\Application\Admin\Controller\CommonController.class.php 第 14 行.
+NOTIC: [8] Undefined variable: config E:\server\WWW\htdocs\one\blog\Application\Admin\Controller\AdminController.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `blog_admin` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `blog_admin` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `blog_admin` LIMIT 0,10   [ RunTime:0.0000s ]
+
+[ 2017-08-25T09:01:19+08:00 ] 127.0.0.1 /index.php/Admin/Admin/show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\AdminController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\server\WWW\htdocs\one\blog\Application\Admin\Controller\AdminController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `blog_config` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `blog_config`  [ RunTime:0.0000s ]
+NOTIC: [8] Array to string conversion E:\server\WWW\htdocs\one\blog\Application\Admin\Controller\CommonController.class.php 第 14 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-25T09:01:19+08:00 ] 127.0.0.1 /Admin/Admin/show?currentIndex=1&pageSize=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\AdminController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\server\WWW\htdocs\one\blog\Application\Admin\Controller\AdminController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `blog_config` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `blog_config`  [ RunTime:0.0010s ]
+NOTIC: [8] Array to string conversion E:\server\WWW\htdocs\one\blog\Application\Admin\Controller\CommonController.class.php 第 14 行.
+NOTIC: [8] Undefined index: PAGE_SIZE E:\server\WWW\htdocs\one\blog\Application\Admin\Controller\AdminController.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `blog_admin` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `blog_admin` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `blog_admin` LIMIT 0,10   [ RunTime:0.0000s ]
+
+[ 2017-08-25T09:01:35+08:00 ] 127.0.0.1 /index.php/Admin/Admin/show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\AdminController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\server\WWW\htdocs\one\blog\Application\Admin\Controller\AdminController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `blog_config` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `blog_config`  [ RunTime:0.0010s ]
+NOTIC: [8] Array to string conversion E:\server\WWW\htdocs\one\blog\Application\Admin\Controller\CommonController.class.php 第 14 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-25T09:01:35+08:00 ] 127.0.0.1 /Admin/Admin/show?currentIndex=1&pageSize=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Admin\Controller\AdminController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\server\WWW\htdocs\one\blog\Application\Admin\Controller\AdminController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `blog_config` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `blog_config`  [ RunTime:0.0000s ]
+NOTIC: [8] Array to string conversion E:\server\WWW\htdocs\one\blog\Application\Admin\Controller\CommonController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `blog_admin` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `blog_admin` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `blog_admin` LIMIT 0,10   [ RunTime:0.0000s ]
+
+[ 2017-08-25T09:01:47+08:00 ] 127.0.0.1 /index.php/Admin/Admin/show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\AdminController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\server\WWW\htdocs\one\blog\Application\Admin\Controller\AdminController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `blog_config` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `blog_config`  [ RunTime:0.0010s ]
+NOTIC: [8] Array to string conversion E:\server\WWW\htdocs\one\blog\Application\Admin\Controller\CommonController.class.php 第 14 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-25T09:01:47+08:00 ] 127.0.0.1 /Admin/Admin/show?currentIndex=1&pageSize=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\AdminController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\server\WWW\htdocs\one\blog\Application\Admin\Controller\AdminController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `blog_config` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `blog_config`  [ RunTime:0.0010s ]
+NOTIC: [8] Array to string conversion E:\server\WWW\htdocs\one\blog\Application\Admin\Controller\CommonController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `blog_admin` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `blog_admin` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `blog_admin` LIMIT 0,10   [ RunTime:0.0000s ]
+
+[ 2017-08-25T09:05:35+08:00 ] 127.0.0.1 /index.php/Admin/Admin/show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Admin\Controller\AdminController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\server\WWW\htdocs\one\blog\Application\Admin\Controller\AdminController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `blog_config` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `blog_config`  [ RunTime:0.0000s ]
+NOTIC: [8] Array to string conversion E:\server\WWW\htdocs\one\blog\Application\Admin\Controller\CommonController.class.php 第 14 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-25T09:05:35+08:00 ] 127.0.0.1 /Admin/Admin/show?currentIndex=1&pageSize=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\AdminController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\server\WWW\htdocs\one\blog\Application\Admin\Controller\AdminController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `blog_config` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `blog_config`  [ RunTime:0.0000s ]
+NOTIC: [8] Array to string conversion E:\server\WWW\htdocs\one\blog\Application\Admin\Controller\CommonController.class.php 第 14 行.
+NOTIC: [8] Undefined index: PAGE_SIZE E:\server\WWW\htdocs\one\blog\Application\Admin\Controller\AdminController.class.php 第 11 行.
+
+[ 2017-08-25T09:06:10+08:00 ] 127.0.0.1 /index.php/Admin/Admin/show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\AdminController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\server\WWW\htdocs\one\blog\Application\Admin\Controller\AdminController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `blog_config` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `blog_config`  [ RunTime:0.0010s ]
+NOTIC: [8] Array to string conversion E:\server\WWW\htdocs\one\blog\Application\Admin\Controller\CommonController.class.php 第 14 行.
+NOTIC: [8] Array to string conversion E:\server\WWW\htdocs\one\blog\Application\Admin\Controller\CommonController.class.php 第 15 行.
+
+[ 2017-08-25T09:06:16+08:00 ] 127.0.0.1 /index.php/Admin/Admin/show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\AdminController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\server\WWW\htdocs\one\blog\Application\Admin\Controller\AdminController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `blog_config` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `blog_config`  [ RunTime:0.0000s ]
+NOTIC: [8] Array to string conversion E:\server\WWW\htdocs\one\blog\Application\Admin\Controller\CommonController.class.php 第 14 行.
+NOTIC: [8] Array to string conversion E:\server\WWW\htdocs\one\blog\Application\Admin\Controller\CommonController.class.php 第 15 行.
+
+[ 2017-08-25T09:07:52+08:00 ] 127.0.0.1 /index.php/Admin/Admin/show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Admin\Controller\AdminController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\server\WWW\htdocs\one\blog\Application\Admin\Controller\AdminController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `blog_config` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `blog_config`  [ RunTime:0.0000s ]
+NOTIC: [8] Array to string conversion E:\server\WWW\htdocs\one\blog\Application\Admin\Controller\CommonController.class.php 第 14 行.
+NOTIC: [8] Undefined index: PAGE_SIZE E:\server\WWW\htdocs\one\blog\Application\Admin\Controller\AdminController.class.php 第 10 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-25T09:07:52+08:00 ] 127.0.0.1 /Admin/Admin/show?currentIndex=1&pageSize=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Admin\Controller\AdminController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\server\WWW\htdocs\one\blog\Application\Admin\Controller\AdminController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `blog_config` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `blog_config`  [ RunTime:0.0010s ]
+NOTIC: [8] Array to string conversion E:\server\WWW\htdocs\one\blog\Application\Admin\Controller\CommonController.class.php 第 14 行.
+NOTIC: [8] Undefined index: PAGE_SIZE E:\server\WWW\htdocs\one\blog\Application\Admin\Controller\AdminController.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `blog_admin` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `blog_admin` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `blog_admin` LIMIT 0,10   [ RunTime:0.0010s ]
+
+[ 2017-08-25T09:08:09+08:00 ] 127.0.0.1 /index.php/Admin/Admin/show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Admin\Controller\AdminController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\server\WWW\htdocs\one\blog\Application\Admin\Controller\AdminController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `blog_config` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `blog_config`  [ RunTime:0.0010s ]
+NOTIC: [8] Array to string conversion E:\server\WWW\htdocs\one\blog\Application\Admin\Controller\CommonController.class.php 第 14 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-25T09:08:09+08:00 ] 127.0.0.1 /Admin/Admin/show?currentIndex=1&pageSize=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Admin\Controller\AdminController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\server\WWW\htdocs\one\blog\Application\Admin\Controller\AdminController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `blog_config` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `blog_config`  [ RunTime:0.0010s ]
+NOTIC: [8] Array to string conversion E:\server\WWW\htdocs\one\blog\Application\Admin\Controller\CommonController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `blog_admin` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `blog_admin` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `blog_admin` LIMIT 0,10   [ RunTime:0.0000s ]
+
+[ 2017-08-25T09:08:11+08:00 ] 127.0.0.1 /index.php/Admin/Admin/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\AdminController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\server\WWW\htdocs\one\blog\Application\Admin\Controller\AdminController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `blog_config` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `blog_config`  [ RunTime:0.0000s ]
+NOTIC: [8] Array to string conversion E:\server\WWW\htdocs\one\blog\Application\Admin\Controller\CommonController.class.php 第 14 行.
+NOTIC: [8] Undefined index: PAGE_SIZE E:\server\WWW\htdocs\one\blog\Application\Admin\Controller\AdminController.class.php 第 26 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-25T09:26:17+08:00 ] 127.0.0.1 /index.php/Admin/Admin/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\AdminController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\server\WWW\htdocs\one\blog\Application\Admin\Controller\AdminController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `blog_config` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `blog_config`  [ RunTime:0.0000s ]
+NOTIC: [8] Array to string conversion E:\server\WWW\htdocs\one\blog\Application\Admin\Controller\CommonController.class.php 第 14 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-25T09:26:21+08:00 ] 127.0.0.1 /index.php/Admin/Label/show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\LabelController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\server\WWW\htdocs\one\blog\Application\Admin\Controller\LabelController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `blog_config` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `blog_config`  [ RunTime:0.0000s ]
+NOTIC: [8] Array to string conversion E:\server\WWW\htdocs\one\blog\Application\Admin\Controller\CommonController.class.php 第 14 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-25T09:26:21+08:00 ] 127.0.0.1 /Admin/Label/show?currentIndex=1&pageSize=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Admin\Controller\LabelController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\server\WWW\htdocs\one\blog\Application\Admin\Controller\LabelController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `blog_config` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `blog_config`  [ RunTime:0.0010s ]
+NOTIC: [8] Array to string conversion E:\server\WWW\htdocs\one\blog\Application\Admin\Controller\CommonController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `blog_lable` [ RunTime:0.0080s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `blog_lable` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `blog_lable` LIMIT 0,10   [ RunTime:0.0000s ]
+
+[ 2017-08-25T09:26:23+08:00 ] 127.0.0.1 /index.php/Admin/Category/show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\CategoryController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\server\WWW\htdocs\one\blog\Application\Admin\Controller\CategoryController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `blog_config` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `blog_config`  [ RunTime:0.0000s ]
+NOTIC: [8] Array to string conversion E:\server\WWW\htdocs\one\blog\Application\Admin\Controller\CommonController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `blog_category` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `blog_category`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-25T09:26:23+08:00 ] 127.0.0.1 /Admin/Category/show?currentIndex=1&pageSize=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\CategoryController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\server\WWW\htdocs\one\blog\Application\Admin\Controller\CategoryController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `blog_config` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `blog_config`  [ RunTime:0.0000s ]
+NOTIC: [8] Array to string conversion E:\server\WWW\htdocs\one\blog\Application\Admin\Controller\CommonController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `blog_article` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `blog_article` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `blog_category` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `blog_category` LIMIT 0,10   [ RunTime:0.0000s ]
+
+[ 2017-08-25T09:26:25+08:00 ] 127.0.0.1 /index.php/Admin/Article/show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\server\WWW\htdocs\one\blog\Application\Admin\Controller\ArticleController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `blog_config` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `blog_config`  [ RunTime:0.0010s ]
+NOTIC: [8] Array to string conversion E:\server\WWW\htdocs\one\blog\Application\Admin\Controller\CommonController.class.php 第 14 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-25T09:26:25+08:00 ] 127.0.0.1 /Admin/Article/show?currentIndex=1&pageSize=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Admin\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\server\WWW\htdocs\one\blog\Application\Admin\Controller\ArticleController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `blog_config` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `blog_config`  [ RunTime:0.0000s ]
+NOTIC: [8] Array to string conversion E:\server\WWW\htdocs\one\blog\Application\Admin\Controller\CommonController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `blog_article` [ RunTime:0.0080s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `blog_article` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `blog_article` INNER JOIN blog_category on blog_article.category_id=blog_category.category_id  LIMIT 0,10   [ RunTime:0.0020s ]
+
+[ 2017-08-25T09:26:30+08:00 ] 127.0.0.1 /index.php/Admin/Admin/show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\AdminController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\server\WWW\htdocs\one\blog\Application\Admin\Controller\AdminController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `blog_config` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `blog_config`  [ RunTime:0.0010s ]
+NOTIC: [8] Array to string conversion E:\server\WWW\htdocs\one\blog\Application\Admin\Controller\CommonController.class.php 第 14 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-25T09:26:30+08:00 ] 127.0.0.1 /Admin/Admin/show?currentIndex=1&pageSize=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\AdminController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\server\WWW\htdocs\one\blog\Application\Admin\Controller\AdminController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `blog_config` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `blog_config`  [ RunTime:0.0010s ]
+NOTIC: [8] Array to string conversion E:\server\WWW\htdocs\one\blog\Application\Admin\Controller\CommonController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `blog_admin` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `blog_admin` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `blog_admin` LIMIT 0,10   [ RunTime:0.0010s ]
+
+[ 2017-08-25T09:33:21+08:00 ] 127.0.0.1 /index.php/Admin/Admin/show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\AdminController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\server\WWW\htdocs\one\blog\Application\Admin\Controller\AdminController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `blog_config` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `blog_config`  [ RunTime:0.0010s ]
+NOTIC: [8] Array to string conversion E:\server\WWW\htdocs\one\blog\Application\Admin\Controller\CommonController.class.php 第 14 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-25T09:33:21+08:00 ] 127.0.0.1 /Admin/Admin/show?currentIndex=1&pageSize=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\AdminController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\server\WWW\htdocs\one\blog\Application\Admin\Controller\AdminController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `blog_config` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `blog_config`  [ RunTime:0.0000s ]
+NOTIC: [8] Array to string conversion E:\server\WWW\htdocs\one\blog\Application\Admin\Controller\CommonController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `blog_admin` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `blog_admin` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `blog_admin` LIMIT 0,10   [ RunTime:0.0010s ]
+
+[ 2017-08-25T09:33:43+08:00 ] 127.0.0.1 /index.php/Admin/Admin/show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\AdminController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\server\WWW\htdocs\one\blog\Application\Admin\Controller\AdminController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `blog_config` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `blog_config`  [ RunTime:0.0010s ]
+NOTIC: [8] Array to string conversion E:\server\WWW\htdocs\one\blog\Application\Admin\Controller\CommonController.class.php 第 14 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-25T09:33:44+08:00 ] 127.0.0.1 /Admin/Admin/show?currentIndex=1&pageSize=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Admin\Controller\AdminController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\server\WWW\htdocs\one\blog\Application\Admin\Controller\AdminController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `blog_config` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `blog_config`  [ RunTime:0.0010s ]
+NOTIC: [8] Array to string conversion E:\server\WWW\htdocs\one\blog\Application\Admin\Controller\CommonController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `blog_admin` [ RunTime:0.0080s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `blog_admin` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `blog_admin` LIMIT 0,10   [ RunTime:0.0000s ]
+
+[ 2017-08-25T09:36:03+08:00 ] 127.0.0.1 /index.php/Admin/Admin/show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\AdminController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\server\WWW\htdocs\one\blog\Application\Admin\Controller\AdminController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `blog_config` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `blog_config`  [ RunTime:0.0000s ]
+NOTIC: [8] Array to string conversion E:\server\WWW\htdocs\one\blog\Application\Admin\Controller\CommonController.class.php 第 14 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-25T09:36:04+08:00 ] 127.0.0.1 /Admin/Admin/show?currentIndex=1&pageSize=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Admin\Controller\AdminController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\server\WWW\htdocs\one\blog\Application\Admin\Controller\AdminController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `blog_config` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `blog_config`  [ RunTime:0.0000s ]
+NOTIC: [8] Array to string conversion E:\server\WWW\htdocs\one\blog\Application\Admin\Controller\CommonController.class.php 第 14 行.
+NOTIC: [8] Undefined index: PAGE_SIZE E:\server\WWW\htdocs\one\blog\Application\Admin\Controller\AdminController.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `blog_admin` [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `blog_admin` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `blog_admin` LIMIT 0,10   [ RunTime:0.0000s ]
+
+[ 2017-08-25T09:36:12+08:00 ] 127.0.0.1 /index.php/Admin/Admin/show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\AdminController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\server\WWW\htdocs\one\blog\Application\Admin\Controller\AdminController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `blog_config` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `blog_config`  [ RunTime:0.0000s ]
+NOTIC: [8] Array to string conversion E:\server\WWW\htdocs\one\blog\Application\Admin\Controller\CommonController.class.php 第 14 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-25T09:36:12+08:00 ] 127.0.0.1 /Admin/Admin/show?currentIndex=1&pageSize=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\AdminController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\server\WWW\htdocs\one\blog\Application\Admin\Controller\AdminController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `blog_config` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `blog_config`  [ RunTime:0.0010s ]
+NOTIC: [8] Array to string conversion E:\server\WWW\htdocs\one\blog\Application\Admin\Controller\CommonController.class.php 第 14 行.
+NOTIC: [8] Undefined index: PAGE_SIZE E:\server\WWW\htdocs\one\blog\Application\Admin\Controller\AdminController.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `blog_admin` [ RunTime:0.0100s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `blog_admin` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `blog_admin` LIMIT 0,10   [ RunTime:0.0000s ]
+
+[ 2017-08-25T09:38:26+08:00 ] 127.0.0.1 /index.php/Admin/Admin/show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Admin\Controller\AdminController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\server\WWW\htdocs\one\blog\Application\Admin\Controller\AdminController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `blog_config` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `blog_config`  [ RunTime:0.0000s ]
+NOTIC: [8] Array to string conversion E:\server\WWW\htdocs\one\blog\Application\Admin\Controller\CommonController.class.php 第 14 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-25T09:38:26+08:00 ] 127.0.0.1 /Admin/Admin/show?currentIndex=1&pageSize=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\AdminController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\server\WWW\htdocs\one\blog\Application\Admin\Controller\AdminController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `blog_config` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `blog_config`  [ RunTime:0.0010s ]
+NOTIC: [8] Array to string conversion E:\server\WWW\htdocs\one\blog\Application\Admin\Controller\CommonController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `blog_admin` [ RunTime:0.0080s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `blog_admin` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `blog_admin` LIMIT 0,10   [ RunTime:0.0010s ]
+
+[ 2017-08-25T10:44:12+08:00 ] 127.0.0.1 /index.php/Admin/Admin/show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\AdminController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\server\WWW\htdocs\one\blog\Application\Admin\Controller\AdminController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `blog_config` [ RunTime:0.0160s ]
+SQL: SELECT * FROM `blog_config`  [ RunTime:0.0060s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007000s ]
+
+[ 2017-08-25T10:44:13+08:00 ] 127.0.0.1 /Admin/Admin/show?currentIndex=1&pageSize=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\AdminController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\server\WWW\htdocs\one\blog\Application\Admin\Controller\AdminController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `blog_config` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `blog_config`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `blog_admin` [ RunTime:0.0360s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `blog_admin` LIMIT 1   [ RunTime:0.0170s ]
+SQL: SELECT * FROM `blog_admin` LIMIT 0,10   [ RunTime:0.0000s ]
+
+[ 2017-08-25T10:44:28+08:00 ] 127.0.0.1 /Admin/Admin/show?currentIndex=2&pageSize=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\AdminController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\server\WWW\htdocs\one\blog\Application\Admin\Controller\AdminController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `blog_config` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `blog_config`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `blog_admin` [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `blog_admin` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `blog_admin` LIMIT 10,10   [ RunTime:0.0010s ]
+
+[ 2017-08-25T10:44:31+08:00 ] 127.0.0.1 /Admin/Admin/show?currentIndex=1&pageSize=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\AdminController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\server\WWW\htdocs\one\blog\Application\Admin\Controller\AdminController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `blog_config` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `blog_config`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `blog_admin` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `blog_admin` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `blog_admin` LIMIT 0,10   [ RunTime:0.0010s ]
+
+[ 2017-08-25T10:47:14+08:00 ] 127.0.0.1 /index.php/Admin/Admin/show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\AdminController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\server\WWW\htdocs\one\blog\Application\Admin\Controller\AdminController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `blog_config` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `blog_config`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-25T10:47:15+08:00 ] 127.0.0.1 /Admin/Admin/show?currentIndex=1&pageSize=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\AdminController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\server\WWW\htdocs\one\blog\Application\Admin\Controller\AdminController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `blog_config` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `blog_config`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `blog_admin` [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `blog_admin` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `blog_admin` LIMIT 0,10   [ RunTime:0.0010s ]
+
+[ 2017-08-25T10:47:17+08:00 ] 127.0.0.1 /index.php/Admin/Admin/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Admin\Controller\AdminController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\server\WWW\htdocs\one\blog\Application\Admin\Controller\AdminController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `blog_config` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `blog_config`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-08-25T10:47:49+08:00 ] 127.0.0.1 /index.php/Admin/Admin/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\AdminController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\server\WWW\htdocs\one\blog\Application\Admin\Controller\AdminController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `blog_config` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `blog_config`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.012000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.012000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.089000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.089000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-25T10:47:53+08:00 ] 127.0.0.1 /index.php/Admin/Admin/show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\AdminController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\server\WWW\htdocs\one\blog\Application\Admin\Controller\AdminController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `blog_config` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `blog_config`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-25T10:47:53+08:00 ] 127.0.0.1 /Admin/Admin/show?currentIndex=1&pageSize=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\AdminController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\server\WWW\htdocs\one\blog\Application\Admin\Controller\AdminController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `blog_config` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `blog_config`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `blog_admin` [ RunTime:0.0090s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `blog_admin` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `blog_admin` LIMIT 0,2   [ RunTime:0.0000s ]
+
+[ 2017-08-25T10:48:02+08:00 ] 127.0.0.1 /Admin/Admin/show?currentIndex=2&pageSize=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Admin\Controller\AdminController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\server\WWW\htdocs\one\blog\Application\Admin\Controller\AdminController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `blog_config` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `blog_config`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `blog_admin` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `blog_admin` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `blog_admin` LIMIT 2,2   [ RunTime:0.0010s ]
+
+[ 2017-08-25T10:48:05+08:00 ] 127.0.0.1 /index.php/Admin/Category/show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Admin\Controller\CategoryController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\server\WWW\htdocs\one\blog\Application\Admin\Controller\CategoryController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `blog_config` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `blog_config`  [ RunTime:0.0200s ]
+SQL: SHOW COLUMNS FROM `blog_category` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `blog_category`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-25T10:48:05+08:00 ] 127.0.0.1 /Admin/Category/show?currentIndex=1&pageSize=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Admin\Controller\CategoryController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\server\WWW\htdocs\one\blog\Application\Admin\Controller\CategoryController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `blog_config` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `blog_config`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `blog_article` [ RunTime:0.0160s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `blog_article` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `blog_category` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `blog_category` LIMIT 0,10   [ RunTime:0.0000s ]
+
+[ 2017-08-25T10:48:17+08:00 ] 127.0.0.1 /index.php/Admin/Category/show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Admin\Controller\CategoryController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\server\WWW\htdocs\one\blog\Application\Admin\Controller\CategoryController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `blog_config` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `blog_config`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `blog_category` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `blog_category`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-25T10:48:17+08:00 ] 127.0.0.1 /Admin/Category/show?currentIndex=1&pageSize=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Admin\Controller\CategoryController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\server\WWW\htdocs\one\blog\Application\Admin\Controller\CategoryController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `blog_config` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `blog_config`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `blog_article` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `blog_article` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `blog_category` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `blog_category` LIMIT 0,10   [ RunTime:0.0010s ]
+
+[ 2017-08-25T10:48:22+08:00 ] 127.0.0.1 /index.php/Admin/Label/show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\LabelController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\server\WWW\htdocs\one\blog\Application\Admin\Controller\LabelController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `blog_config` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `blog_config`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-25T10:48:22+08:00 ] 127.0.0.1 /Admin/Label/show?currentIndex=1&pageSize=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Admin\Controller\LabelController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\server\WWW\htdocs\one\blog\Application\Admin\Controller\LabelController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `blog_config` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `blog_config`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `blog_lable` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `blog_lable` LIMIT 1   [ RunTime:0.0100s ]
+SQL: SELECT * FROM `blog_lable` LIMIT 0,10   [ RunTime:0.0000s ]
+
+[ 2017-08-25T10:48:27+08:00 ] 127.0.0.1 /index.php/Admin/Config/show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\ConfigController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\server\WWW\htdocs\one\blog\Application\Admin\Controller\ConfigController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `blog_config` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `blog_config`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `blog_config`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-25T10:48:32+08:00 ] 127.0.0.1 /index.php/Admin/Config/show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\ConfigController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\server\WWW\htdocs\one\blog\Application\Admin\Controller\ConfigController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `blog_config` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `blog_config`  [ RunTime:0.0000s ]
+SQL: UPDATE `blog_config` SET `web_site`='WEB_SITE',`web_value`='www.xiao.com' WHERE `web_site` = 'WEB_SITE' [ RunTime:0.1070s ]
+SQL: UPDATE `blog_config` SET `web_site`='WEB_TITLE',`web_value`='xiao' WHERE `web_site` = 'WEB_TITLE' [ RunTime:0.0360s ]
+SQL: UPDATE `blog_config` SET `web_site`='IS_OFF',`web_value`='0' WHERE `web_site` = 'IS_OFF' [ RunTime:0.0310s ]
+SQL: UPDATE `blog_config` SET `web_site`='PAGE_SIZE',`web_value`='1' WHERE `web_site` = 'PAGE_SIZE' [ RunTime:0.0280s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-25T10:48:33+08:00 ] 127.0.0.1 /index.php/Admin/Config/show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\ConfigController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\server\WWW\htdocs\one\blog\Application\Admin\Controller\ConfigController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `blog_config` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `blog_config`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `blog_config`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-25T10:48:35+08:00 ] 127.0.0.1 /index.php/Admin/Admin/show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\AdminController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\server\WWW\htdocs\one\blog\Application\Admin\Controller\AdminController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `blog_config` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `blog_config`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-25T10:48:36+08:00 ] 127.0.0.1 /Admin/Admin/show?currentIndex=1&pageSize=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Admin\Controller\AdminController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\server\WWW\htdocs\one\blog\Application\Admin\Controller\AdminController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `blog_config` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `blog_config`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `blog_admin` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `blog_admin` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `blog_admin` LIMIT 0,1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: pageSize E:\server\WWW\htdocs\one\blog\Application\Admin\Controller\AdminController.class.php 第 21 行.
+
+[ 2017-08-25T10:56:05+08:00 ] 127.0.0.1 /index.php/Admin/Config/show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-25T10:56:21+08:00 ] 127.0.0.1 /index.php/Admin/Config/show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Admin\Controller\ConfigController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\server\WWW\htdocs\one\blog\Application\Admin\Controller\ConfigController.class.php 第 4 行.
+
+[ 2017-08-25T10:56:47+08:00 ] 127.0.0.1 /index.php/Admin/Config/show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\ConfigController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\server\WWW\htdocs\one\blog\Application\Admin\Controller\ConfigController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `blog_config` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `blog_config`  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `blog_config`  [ RunTime:0.0010s ]
+
+[ 2017-08-25T10:57:41+08:00 ] 127.0.0.1 /index.php/Admin/Config/show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\ConfigController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\server\WWW\htdocs\one\blog\Application\Admin\Controller\ConfigController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `blog_config` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `blog_config`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `blog_config`  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `blog_config`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-25T10:57:44+08:00 ] 127.0.0.1 /index.php/Admin/Config/show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\ConfigController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\server\WWW\htdocs\one\blog\Application\Admin\Controller\ConfigController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `blog_config` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `blog_config`  [ RunTime:0.0010s ]
+SQL: UPDATE `blog_config` SET `web_site`='WEB_SITE',`web_value`='www.xiao.com' WHERE `web_site` = 'WEB_SITE' [ RunTime:0.0640s ]
+SQL: UPDATE `blog_config` SET `web_site`='WEB_TITLE',`web_value`='xiao' WHERE `web_site` = 'WEB_TITLE' [ RunTime:0.0290s ]
+SQL: UPDATE `blog_config` SET `web_site`='IS_OFF',`web_value`='0' WHERE `web_site` = 'IS_OFF' [ RunTime:0.0280s ]
+SQL: UPDATE `blog_config` SET `web_site`='PAGE_SIZE',`web_value`='2' WHERE `web_site` = 'PAGE_SIZE' [ RunTime:0.0620s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-25T10:57:45+08:00 ] 127.0.0.1 /index.php/Admin/Config/show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Admin\Controller\ConfigController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\server\WWW\htdocs\one\blog\Application\Admin\Controller\ConfigController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `blog_config` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `blog_config`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `blog_config`  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `blog_config`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-25T10:57:49+08:00 ] 127.0.0.1 /index.php/Admin/Admin/show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\AdminController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\server\WWW\htdocs\one\blog\Application\Admin\Controller\AdminController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `blog_config` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `blog_config`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-25T10:57:49+08:00 ] 127.0.0.1 /Admin/Admin/show?currentIndex=1&pageSize=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\AdminController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\server\WWW\htdocs\one\blog\Application\Admin\Controller\AdminController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `blog_config` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `blog_config`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `blog_admin` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `blog_admin` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `blog_admin` LIMIT 0,2   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: pageSize E:\server\WWW\htdocs\one\blog\Application\Admin\Controller\AdminController.class.php 第 20 行.
+
+[ 2017-08-25T11:00:17+08:00 ] 127.0.0.1 /index.php/Admin/Admin/show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\AdminController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\server\WWW\htdocs\one\blog\Application\Admin\Controller\AdminController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `blog_config` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `blog_config`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-25T11:00:17+08:00 ] 127.0.0.1 /Admin/Admin/show?currentIndex=1&pageSize=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\AdminController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\server\WWW\htdocs\one\blog\Application\Admin\Controller\AdminController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `blog_config` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `blog_config`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `blog_admin` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `blog_admin` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `blog_admin` LIMIT 0,2   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: pageSize E:\server\WWW\htdocs\one\blog\Application\Admin\Controller\AdminController.class.php 第 20 行.
+
+[ 2017-08-25T11:00:21+08:00 ] 127.0.0.1 /index.php/Admin/Config/show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\ConfigController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\server\WWW\htdocs\one\blog\Application\Admin\Controller\ConfigController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `blog_config` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `blog_config`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `blog_config`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-25T11:00:25+08:00 ] 127.0.0.1 /index.php/Admin/Config/show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\ConfigController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\server\WWW\htdocs\one\blog\Application\Admin\Controller\ConfigController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `blog_config` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `blog_config`  [ RunTime:0.0000s ]
+SQL: UPDATE `blog_config` SET `web_site`='WEB_SITE',`web_value`='www.xiao.com' WHERE `web_site` = 'WEB_SITE' [ RunTime:0.0920s ]
+SQL: UPDATE `blog_config` SET `web_site`='WEB_TITLE',`web_value`='xiao' WHERE `web_site` = 'WEB_TITLE' [ RunTime:0.0290s ]
+SQL: UPDATE `blog_config` SET `web_site`='IS_OFF',`web_value`='0' WHERE `web_site` = 'IS_OFF' [ RunTime:0.0290s ]
+SQL: UPDATE `blog_config` SET `web_site`='PAGE_SIZE',`web_value`='1' WHERE `web_site` = 'PAGE_SIZE' [ RunTime:0.0290s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-25T11:00:26+08:00 ] 127.0.0.1 /index.php/Admin/Config/show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\ConfigController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\server\WWW\htdocs\one\blog\Application\Admin\Controller\ConfigController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `blog_config` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `blog_config`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `blog_config`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-25T11:00:28+08:00 ] 127.0.0.1 /index.php/Admin/Admin/show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Admin\Controller\AdminController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\server\WWW\htdocs\one\blog\Application\Admin\Controller\AdminController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `blog_config` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `blog_config`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-25T11:00:28+08:00 ] 127.0.0.1 /Admin/Admin/show?currentIndex=1&pageSize=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\AdminController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\server\WWW\htdocs\one\blog\Application\Admin\Controller\AdminController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `blog_config` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `blog_config`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `blog_admin` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `blog_admin` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `blog_admin` LIMIT 0,1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: pageSize E:\server\WWW\htdocs\one\blog\Application\Admin\Controller\AdminController.class.php 第 20 行.
+
